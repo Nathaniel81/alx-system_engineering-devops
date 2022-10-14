@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-
+psWd=$"/etc/passwd"
 while read -r pswd
 do
-	echo $pswd | cut -d ":" -f 1,3,6
+	echo "$pswd" | cut -d ":" -f 1,3,6
 
-done < $(etc/passwd)
+done < $psWd
