@@ -4,5 +4,5 @@
 lists=$(ls)
 for lsts in $lists;
 do
-	echo $lsts | cut -d '-' -f2
+	echo "$lsts" | cut -d '-' -f2
 done
