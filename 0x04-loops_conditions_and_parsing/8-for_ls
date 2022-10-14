@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 
-for lsts in `ls $*`; do
+lists=$(ls)
+for lsts in $lists;
+do
 	echo $lsts | cut -d '-' -f2
 done
