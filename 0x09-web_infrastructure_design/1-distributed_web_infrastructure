@@ -1,0 +1,6 @@
+1.SPOF: The Connection of the web server to the internet and Load-Balancer malfunction
+2.Security issues: No firewall implemented and SSL or TSL certificate is not used
+3. There is no Monitoring, so it would be difficult to predict peak hours and identify when and why congestion occurs
+
+
+https://docs.google.com/document/d/1hDBbjopsY8crCiIPmH_ZzN0x4y_lX1rv69k-nZhdFpA/edit?usp=sharing
