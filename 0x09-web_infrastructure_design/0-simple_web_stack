@@ -1,0 +1,6 @@
+1.SPOF: Since there is only one server, downtime is inevitable
+2.There is a chance that the server will become congested as a result of the high amount of traffic.
+3.Due to lack of SSL certificate in the design, the trafic can be intercepted
+
+
+https://docs.google.com/document/d/1L38xm1q5bnJAWqkRZBRYwJdFb3Cx2tQ09xTtHOjgIwA/edit?usp=sharing
