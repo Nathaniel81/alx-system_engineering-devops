@@ -1,0 +1,6 @@
+1.SPOF: Terminating SSL at the load balancer, this will result vulnarability in data theft.
+2.Having only one MySQL server capable of accepting writes is an issue, becuase if this MySQL server were to fail, all the data changes from the writes would be lost.
+3.All servers are configured on a single server, having such configuration will result an issue on security, performance and scalability
+
+
+https://docs.google.com/document/d/1rsHt8U_CmV7w3AToxyxJxN7tJynhcbPe3FsEhrLdffw/edit?usp=sharing
