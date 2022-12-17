@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# Uses ssh to connect to the server using the private key
+
+ssh -i ~/.ssh/schoolubuntu@44.192.38.74
