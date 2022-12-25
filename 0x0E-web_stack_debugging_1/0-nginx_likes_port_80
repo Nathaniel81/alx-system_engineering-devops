@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# Makes the nginx server run and listen on port 80
-str1="listen 80 default_server;"
-str="listen 8080 default_server;"
-sudo sed -i "s/$str/$str1/" /etc/nginx/sites-enabled/default
-sudo sed -i '22d' /etc/nginx/sites-enabled/default
-sudo service nginx start
+# Fixes the issues with nginx server problems from listening on port 80.
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
