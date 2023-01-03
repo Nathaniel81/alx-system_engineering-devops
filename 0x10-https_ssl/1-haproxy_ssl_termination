@@ -35,11 +35,11 @@ defaults
 
 frontend web-frontend
         bind *:80
-  bind *:443 ssl crt /etc/letsencrypt/live/www.theanteneh.tech/fullchain.pem
+  bind *:443 ssl crt /etc/letsencrypt/live/www.allnate.tech/fullchain.pem
         mode http
         default_backend web-backend
 
 backend web-backend
 	balance roundrobin
-        server 24321-web-01 54.146.93.216:80 check
-        server 59637-web-02 35.174.204.198:80 check
+        server 59834-web-01 54.165.119.73:80 check
+        server 59834-web-02 18.206.232.40:80 check
