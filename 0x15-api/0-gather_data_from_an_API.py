@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Interacts with the rest api. For a given employee id, it returns information about his/her TODO list progress."""
+"""Interacts with the rest api. For a given employee id,
+it returns information about his/her TODO list progress."""
 from requests import get
 from sys import argv
 

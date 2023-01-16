@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Interacts with the REST api. The script exports a given employee data into a json file format"""
+"""Interacts with the REST api. 
+The script exports a given employee data into a json file format"""
 from requests import get
 from sys import argv
 from json import dump
